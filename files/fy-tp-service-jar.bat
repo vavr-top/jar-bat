@@ -33,3 +33,5 @@ for /f "tokens=1,2 delims==" %%i in (%file_dir%\%publish-ini%) do (
   )  
 )
 
+copy /y %workspaces-path%\resources\log4j.properties %workspaces-path%\Web\WEB-INF\classes\
+
